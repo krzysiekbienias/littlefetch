@@ -1,0 +1,8 @@
+[api]
+base_url = "https://api.massive.com"
+api_key_env = "MASSIVE_API_KEY"
+timeout_s = 20.0
+stocks_aggs_path = "/v2/aggs/ticker/{ticker}/range/1/day/{start}/{end}"
+futures_aggs_path = "/futures/v1/aggs/{contract}"
+futures_resolution = "1session"
+futures_page_limit = 5000
